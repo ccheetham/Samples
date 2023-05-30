@@ -17,8 +17,8 @@ spec:
   env:
   - name: DOTNET_CLI_TELEMETRY_OPTOUT
     value: "true"
-  # - name: ASPNETCORE_ENVIRONMENT
-  #   value: "k8s"
+  - name: ASPNETCORE_ENVIRONMENT
+    value: "k8s"
   source:
     git:
       url: https://github.com/ccheetham/Samples
