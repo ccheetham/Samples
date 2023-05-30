@@ -4,7 +4,7 @@ metadata:
   name: fortune-teller-service
   labels:
     app.kubernetes.io/part-of: fortune-teller
-    apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/workload-type: server
     apps.tanzu.vmware.com/has-tests: "true"
     tanzu.app.live.view: "true"
     tanzu.app.live.view.application.flavours: steeltoe
